@@ -55,12 +55,12 @@ python train_model.py
 ### Training and Validation Loss
 The graph below illustrates the training and validation loss over 30 epochs.
 
-![Training and Validation Loss](results/training_validation_loss.png)
+![Training and Validation Loss](results/loss.png)
 
 ### Confusion Matrix
 The confusion matrix highlights the challenges faced during classification due to data constraints.
 
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](results/conf_table.png)
 
 ## Evaluation Metrics
 - **Accuracy**: Used to evaluate the overall correctness of predictions.
