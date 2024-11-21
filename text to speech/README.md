@@ -11,6 +11,10 @@ This module focuses on building an emotional tts model for the Kazakh language. 
 - [Repository Structure](#repository-structure)
 - [Requireemnts](#requirements)
 - [Data Preparation](#data-preparation)
+- [Model Training](#model-training)
+- [Results](#results)
+  - [Comparison Table](#comparison-table)
+  - [Loss Images](#loss-images)
 
 ---
 
@@ -58,7 +62,9 @@ To train the model, we used the code from [ylacombe](https://github.com/ylacombe
 | **M2 (399)** |  300.46      |  298.00      |  320.04       |  319.73      |  316.91      |  315.15      |  311.72  |  3.80   |
 | **Average**  |  309.56      |  301.16      |  316.58       |  310.10      |  308.99      |  305.08      |  308.58  |  3.77   |
 
-### Loss functions
+### Loss Images
+Below are the loss images of the model trained on happy audio for 200 epochs.
+
 ![Val loss kl](doc/loss_kl.png)
 
 ![Vall loss mel](doc/loss_mel.png)
